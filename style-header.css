@@ -97,9 +97,8 @@ ul{
 
 
 
-/* footer */
+/* footer // se eliminó la posicion FIXED position del footer */
 footer{
-  position:fixed;
    left:0px;
    bottom:0px;
    height: 160px;
