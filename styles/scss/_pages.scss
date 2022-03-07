@@ -43,4 +43,61 @@
             color: $black;
         }
     }
+
+    .info-container {
+        color: $white;
+        border-radius: 8px;
+        padding: 12px 16px;
+        margin-bottom: 24px;
+        &-title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        &-row {
+            font-size: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &-blue {
+            background-color: rgba( $blue, .7 );
+        }
+        &-purple {
+            background-color: rgba( $purple4, .5 );
+        }
+    }
+
+    .income-area {
+        display: flex;
+        &-info {
+            display: inline-block;
+            margin-left: 12px;
+            font-size: 18px;
+        }
+    }
+
+    .iconme-area-title {
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .container-offers {
+        background-color: $purple3;
+        border-radius: 10px;
+        padding: 20px 20px 1px 20px;
+        color: $black;
+
+        .text-info {
+            color: $black !important;
+        }
+
+        .font-bold {
+            margin-top: 8px;
+        }
+
+        .row {
+            margin-bottom: 30px;
+        }
+    }
 }

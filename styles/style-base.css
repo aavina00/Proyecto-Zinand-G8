@@ -346,6 +346,14 @@ template {
   margin-top: 32px !important;
 }
 
+.font-bold {
+  font-weight: 600;
+}
+
+.no-margin-bottom {
+  margin-botttom: 0px !important;
+}
+
 html {
   font-size: 8px;
   width: 100%;
@@ -379,7 +387,7 @@ h2 {
 }
 
 section {
-  margin-top: 60px;
+  margin-top: 60px !important;
 }
 
 nav {
@@ -425,6 +433,18 @@ nav .navbar-nav {
 .button-outline_blue:hover {
   background: #2BA7FA;
   color: #ffffff;
+}
+
+.link-red {
+  background-color: #FF638E;
+  color: #ffffff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.link-separator {
+  margin-top: 24px;
 }
 
 #admin-inicio .welcome h1 {
@@ -473,4 +493,71 @@ nav .navbar-nav {
 #admin-inicio .action-gray {
   background-color: #E5E5E5;
   color: #000000;
+}
+
+#admin-inicio .info-container {
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 24px;
+}
+
+#admin-inicio .info-container-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+#admin-inicio .info-container-row {
+  font-size: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#admin-inicio .info-container-blue {
+  background-color: rgba(43, 167, 250, 0.7);
+}
+
+#admin-inicio .info-container-purple {
+  background-color: rgba(123, 97, 255, 0.5);
+}
+
+#admin-inicio .income-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#admin-inicio .income-area-info {
+  display: inline-block;
+  margin-left: 12px;
+  font-size: 18px;
+}
+
+#admin-inicio .iconme-area-title {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+#admin-inicio .container-offers {
+  background-color: #DED7FF;
+  border-radius: 10px;
+  padding: 20px 20px 1px 20px;
+  color: #000000;
+}
+
+#admin-inicio .container-offers .text-info {
+  color: #000000 !important;
+}
+
+#admin-inicio .container-offers .font-bold {
+  margin-top: 8px;
+}
+
+#admin-inicio .container-offers .row {
+  margin-bottom: 30px;
 }

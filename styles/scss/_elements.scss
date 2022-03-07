@@ -4,7 +4,7 @@
 }
 
 section {
-    margin-top: 60px;
+    margin-top: 60px !important;
 }
 
 nav {
@@ -43,4 +43,16 @@ nav {
             color: $white;
         }
     }
+}
+
+.link-red {
+    background-color: $red2;
+    color: $white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.link-separator {
+    margin-top: 24px;
 }
