@@ -329,3 +329,9 @@ margin: 0.3em;
 .btn-wsp img{
  height: 5em;
 }
+
+.btn-a {
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+}

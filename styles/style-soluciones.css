@@ -339,10 +339,11 @@ footer{
 
 
 .zinand_info{
-  margin-top: 1em;
-  padding: 2em;
-    display: flex;
-    justify-content: center;
+  margin-right: 2em;
+  margin-left: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #zinand_demo_info{
@@ -351,9 +352,6 @@ footer{
 
 
 .zinand_info_a{
-    margin: 2em;
-    margin-left: 2em;
-    margin-right: 15em;
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -415,4 +413,9 @@ footer{
 
 .btnline{
   color: #2A3FFB;
+}
+
+.zinand_img img{
+  width: 50vw;
+  height: auto;
 }
